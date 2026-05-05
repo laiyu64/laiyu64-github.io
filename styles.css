@@ -284,3 +284,21 @@ a {
     padding-right: 18px;
   }
 }
+
+.post-image {
+  margin: 28px 0;
+  text-align: center;
+}
+
+.post-image img {
+  width: 100%;
+  max-width: 760px;
+  border-radius: 18px;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+}
+
+.post-image figcaption {
+  margin-top: 10px;
+  font-size: 0.92rem;
+  color: #64748b;
+}

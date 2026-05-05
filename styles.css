@@ -285,20 +285,23 @@ a {
   }
 }
 
-.post-image {
-  margin: 28px 0;
+.post-image.award-image {
+  margin: 24px auto;
   text-align: center;
 }
 
-.post-image img {
-  width: 100%;
-  max-width: 760px;
-  border-radius: 18px;
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+.post-image.award-image img {
+  display: block;
+  width: min(100%, 420px);
+  max-width: 420px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.14);
 }
 
-.post-image figcaption {
-  margin-top: 10px;
-  font-size: 0.92rem;
+.post-image.award-image figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
   color: #64748b;
 }
